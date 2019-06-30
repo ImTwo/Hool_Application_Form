@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK:400&display=swap');
+
+body {
+	margin:0;
+	padding: 0;
+	background-color: #171717;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+	color:#8e8e8e;
+}
+
+.contact {
+	margin:auto;
+	margin-top:100px;
+	width:650px;
+}
+
+.right {
+	float:right;
+}
+
+input[type=radio] {
+	display:none;
+}
+
+::placeholder {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+	color:#8e8e8e;
+	opacity: 1;
+}
+
+input[type=text] {
+	width:47%;
+	border:none;
+	background-color: #222222;
+	margin-bottom:15px;
+	height:50px;
+	font-size:20px;
+	color:#f3f3f3;
+	padding-left:15px;
+	display:inline-block;
+}
+
+input[type=submit] {
+	margin-top:30px;
+	background-color: #222222;
+	border: 1px solid black;
+	color: #f3f3f3;
+	padding:5px;
+	font-weight: bold;
+	font-size: 28px;
+	width:100%;
+}
+
+.text {
+	background-color: #222222;
+	color: #f3f3f3;
+	padding:15px;
+	font-size: 14px;
+	width:calc(100% - 30px);
+	border-width:0px;
+}
+
+form p {
+	font-size: 24px;
+}
+
+form label {
+	width:calc(47% + 15px);
+	display:inline-block;
+	background-color: #222222;
+	margin-bottom:15px;
+}
+
+.radio-item {
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 12px 30px;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+}
+
+input[type=radio]:checked + span {
+	background-color: red;
+}
